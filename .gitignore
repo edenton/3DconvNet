@@ -16,3 +16,7 @@
 *.exe
 *.out
 *.app
+
+# Some other unknown file
+.DS_Store
+._.DS_Store
