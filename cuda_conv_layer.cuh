@@ -1,0 +1,2 @@
+__global__ void convLayerKernel(float* inputMaps, float* outputMaps, int N, int M, int F_in, int F_out, int K, int S) ;
+__host__ void convLayer(float* inputMaps, float* weights, float* outputMaps, int N, int M, int F_in, int F_out, int K, int S);
